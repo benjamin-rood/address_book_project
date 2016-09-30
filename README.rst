@@ -3,6 +3,7 @@ Simple Address Book
 ===================
 
 Version: 0.0.1
+Python Version: Python 3.5
 
 A **Person** object consists of `first_name` and `last_name` string fields, sets of telephone numbers, email, and physical addresses (all as strings), as well as the set of keys to Groups which a Person is a member of.
 
@@ -131,3 +132,11 @@ In addition, the following features are also provided for as methods on an Addre
 
 *get_persons_in_group(groupID)*: Returns the set of Person objects in the Group corresponding to the provided ``groupID`` string.
 *n.b. If the provided* ``groupID`` *does not match any Group in the Address Book, then the empty set is returned.*
+
+
+Testing
+-------------------
+
+Requires **PyTest** package.
+
+``python -m pytest``
